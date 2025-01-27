@@ -1,0 +1,19 @@
+info_mhd.out contains the information relevant to the inputs used in you run.
+mhd_phys.out contains the values of physical/dynamical paramaters at each point of the shocked layer
+mhd_speci_ad.out contains the values of species abundances at each point of the shock layer in absolute density format
+mhd_speci_cd.out contains the values of species abundances at each point of the shock layer in column density format
+mhd_speci_fd.out contains the values of species abundances at each point of the shock layer in fractional abundance format
+energetics.out contains the values of mass, momentum, and energy fluxes contributions at each point of the shock layer respectively in g/s/cm2, erg/cm3, erg/s/cm2 units
+H2_lev_ad.out contains the values of the density of each considered H2 level at each point of the shock layer in absolute density format
+H2_lev_cd.out contains the values of the density of each considered H2 level at each point of the shock layer in column density format
+H2_lev_ln.out contains the values of the density of each considered H2 level at each point of the shock layer in excitation diagram (ln (N/g)) format
+H2_line_loc.out contains the values of the (local) emissivity of each considered H2 line at each point of the shock layer in (erg/s/cm3) unit
+H2_line_int.out contains the values of the (integrated) intensity of each considered H2 line at each point of the shock layer in (erg/s/cm2/sr) unit
+excit.out contains the final values to build the H2 excitation diagram associated to the shock layer
+populations.out contains the level density of the most relevant atomic and ion levels at each point of the shock layer relative to ground state (?)
+intensity.out contains the values of the integrated intensities of the most relevant atomic and ion lines at each point of the shock layer in (erg/cm2/s/sr) units
+cooling.out contains the values of the molecular and atomic cooling (emissivity) due to the most relevant species at each point of the shock layer in (erg/s/cm3) units
+fe_pops.out contains the level density of the Fe levels at each point of the shock layer relative to ground state
+fe_lines.out contains the values of the integrated intensities of the Fe lines at each point of the shock layer in (erg/cm2/s/sr) units
+err_cool.out contains unimportant warning messages
+species.out contains a list of chemical species and corresponding abundances, for internal check-up/use only
